@@ -13,5 +13,12 @@
   "contact_heading": "Contact",
   "contact_text": "Questions, corrections or ideas for an article? Email me:",
   "contact_email": "joel@joelcrowe.co.uk",
+  "links_heading": "Links",
+  "links": [
+    {
+      "label": "Apprentice Insider",
+      "url": "apprenticeinsider.co.uk"
+    }
+  ],
   "credit": "Every article on this site is written by me, Joel Crowe. The website itself (its design and code) was built by Claude, an AI assistant. I am also in charge of Apprentice Insider."
 }
