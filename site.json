@@ -1,17 +1,17 @@
 {
   "site_title": "Joel Crowe",
-  "tagline": "Maths ideas I find interesting, written up every two weeks.",
-  "intro": "Hi, I'm Joel. I write short articles about maths problems and ideas that caught my attention — what the idea is, how I worked through it, and what I'm still wondering about.",
+  "tagline": "Maths ideas I find interesting, I try to write these up bi-weekly.",
+  "intro": "Hi, I'm Joel. I write short articles about maths problems and ideas that catch my attention — what the idea is, how I worked through it, and what I'm still wondering about.",
   "articles_heading": "Articles",
   "read_more": "Read article",
   "no_articles": "No articles yet — the first one is coming soon.",
   "about_heading": "About",
-  "about": "<p>Write a few plain sentences about yourself here: what kind of maths you enjoy, and anything else you're into.</p>",
+  "about": "Write a few plain sentences about yourself here: what kind of maths you enjoy, and anything else you're into.",
   "author_name": "Joel Crowe",
   "byline_prefix": "Written by",
   "back_link": "← All articles",
   "contact_heading": "Contact",
   "contact_text": "Questions, corrections or ideas for an article? Email me:",
-  "contact_email": "you@joelcrowe.co.uk",
-  "credit": "Every article on this site is written by me, Joel Crowe. The website itself (its design and code) was built with the help of Claude, an AI assistant."
+  "contact_email": "joel@joelcrowe.co.uk",
+  "credit": "Every article on this site is written by me, Joel Crowe. The website itself (its design and code) was built by Claude, an AI assistant."
 }
