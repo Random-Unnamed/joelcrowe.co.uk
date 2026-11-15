@@ -56,4 +56,11 @@ content:
       - { name: contact_heading, label: Contact heading, type: string }
       - { name: contact_text, label: Contact text, type: string }
       - { name: contact_email, label: Contact email, type: string }
-      - { name: credit, label: Credit line (footer), type: text }
+            - { name: links_heading, label: Links heading, type: string }
+      - name: links
+        label: Links (shown at the bottom of every page)
+        type: object
+        list: true
+        fields:
+          - { name: label, label: Link text (e.g. Apprentice Insider), type: string }
+          - { name: url, label: Web address, type: string }- { name: credit, label: Credit line (footer), type: text }
