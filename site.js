@@ -39,6 +39,16 @@
   function common(S) {
     document.querySelectorAll("[data-text]").forEach(e => { e.textContent = S[e.dataset.text] ?? ""; });
     const mail = $("contact-email"); if (mail) { mail.textContent = S.contact_email; mail.href = "mailto:" + S.contact_email; }
+    const L = (Array.isArray(S.links) ? S.links : []).filter(l => l && l.url);
+    const box = $("links");
+    const lh = box && box.querySelector("h2"); if (lh) lh.textContent = S.links_heading || "Links";
+    if (box) {
+      if (!L.length) { box.hidden = true; }
+      else {
+        const fix = u => (/^(https?:|mailto:)/i.test(u) ? u : "https://" + u);
+        set("links-list", L.map(l => `<li><a href="${esc(fix(String(l.url).trim()))}" target="_blank" rel="noopener">${esc(l.label || l.url)}</a></li>`).join(""));
+      }
+    }
   }
 
   Promise.all([get("site.json"), get("articles.json")]).then(([S, A]) => {

@@ -31,3 +31,5 @@ article h1{font-size:2rem;line-height:1.25;margin:.8rem 0 .2rem}
 .footer{margin-top:56px;padding-top:20px;padding-bottom:40px;border-top:1px solid var(--line);font-size:.95rem}
 .footer h2{font-size:1.05rem;margin:0 0 .3rem}
 .credit{color:var(--muted);font-size:.88rem;margin-top:1.2rem}
+.links{list-style:none;padding:0;margin:.2rem 0 0;display:flex;flex-wrap:wrap;gap:6px 18px}
+#links h2{margin-top:1.4rem}
