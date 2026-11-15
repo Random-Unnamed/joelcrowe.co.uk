@@ -8,7 +8,7 @@ content:
   - name: articles
     label: Articles
     type: file
-    path: content/articles.json
+    path: articles.json
     format: json
     list: true
     fields:
@@ -40,7 +40,7 @@ content:
   - name: site
     label: Site text
     type: file
-    path: content/site.json
+    path: site.json
     format: json
     fields:
       - { name: site_title, label: Site title, type: string }

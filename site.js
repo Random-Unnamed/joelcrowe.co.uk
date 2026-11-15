@@ -41,7 +41,7 @@
     const mail = $("contact-email"); if (mail) { mail.textContent = S.contact_email; mail.href = "mailto:" + S.contact_email; }
   }
 
-  Promise.all([get("content/site.json"), get("content/articles.json")]).then(([S, A]) => {
+  Promise.all([get("site.json"), get("articles.json")]).then(([S, A]) => {
     common(S);
     A = (Array.isArray(A) ? A : []).slice().sort((x, y) => String(y.date).localeCompare(String(x.date)));
     const page = document.body.dataset.page;

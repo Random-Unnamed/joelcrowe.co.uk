@@ -3,7 +3,7 @@
     "title": "Example article (delete me)",
     "slug": "example-article",
     "date": "2026-11-15",
-    "cover": "/images/example-cover.svg",
+    "cover": "example-cover.svg",
     "cover_alt": "Abstract pattern of circles",
     "summary": "This is a placeholder so you can see how an article looks. Replace it with your first real article.",
     "body": "<p>This placeholder shows the layout. Replace it with your own article from the admin page.</p><h2>A heading</h2><p>Normal paragraphs, <strong>bold</strong> and <em>italic</em> text all work. Maths works too: write $x^2 + y^2 = z^2$ inside dollar signs, or a displayed equation inside double dollar signs:</p><p>$$\\frac{n(n+1)}{2}$$</p><ul><li>Lists work</li><li>like this</li></ul>"
